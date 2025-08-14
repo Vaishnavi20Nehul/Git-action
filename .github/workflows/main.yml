@@ -9,8 +9,8 @@ jobs:
  demo-commands:
   runs-on:ubuntu-latest
 
-  steps:
-   - name:Shown current working directory
+ steps:
+   - name: Show current working directory
      run: pwd
    
   
