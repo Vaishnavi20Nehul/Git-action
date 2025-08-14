@@ -1,7 +1,7 @@
 name:Basic Commands
 
-on:
-   push:
+On:
+  push:
      branches:
      - main
 
