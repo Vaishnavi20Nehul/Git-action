@@ -1,7 +1,7 @@
 name: Basic commands
 on:
-schedule:
-  - cron: "*/2 ****" #Every day at midnight UTC
+ schedule:
+   - cron: "*/2 * * * *" #Every day at midnight UTC
 
 jobs:
  demo-commands:
