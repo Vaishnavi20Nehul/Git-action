@@ -1,11 +1,8 @@
 name:Basic commands
 
 on:
- push:
-  branches:
-   -main
  schedule
- -cron:"O O ***" #Every day at midnight UTC
+ -cron:"*/2 ****" #Every day at midnight UTC
  Workflow_dispatch:#Manual trigger
 
 jobs:
