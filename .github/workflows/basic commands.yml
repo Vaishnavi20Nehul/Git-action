@@ -1,0 +1,24 @@
+name:Basic commands
+
+on:
+ push:
+  branches:
+   -main
+ schedule
+ -cron:"O O ***" #Every day at midnight UTC
+ Workflow_dispatch:#Manual trigger
+
+jobs:
+ demo-commands:
+  runs-on:ubuntu-latest
+
+  steps:
+   -name:show current working directory
+    run:Pwd
+
+   -name:List files in the directory
+    run:ls-la
+
+   -name:print today's date
+    run:date
+    
