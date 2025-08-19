@@ -1,9 +1,8 @@
-name:Basic commands
-
+name: Basic commands
 on:
  schedule
  -cron:"*/2 ****" #Every day at midnight UTC
- Workflow_dispatch:#Manual trigger
+ Workflow_dispatch:
 
 jobs:
  demo-commands:
