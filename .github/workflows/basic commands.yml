@@ -5,15 +5,15 @@ schedule:
 
 jobs:
  demo-commands:
-  runs-on:ubuntu-latest
+  runs-on: ubuntu-latest
 
   steps:
    - name: show current working directory
-    run:Pwd
+     run: Pwd
 
    - name: List files in the directory
-    run:ls-la
+     run: ls-la
 
    - name: print today's date
-    run:date
+     run: date
     
