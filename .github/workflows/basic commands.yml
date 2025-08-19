@@ -1,20 +1,19 @@
 name: Basic commands
 on:
- schedule
- -cron:"*/2 ****" #Every day at midnight UTC
- Workflow_dispatch:
+schedule:
+  - cron: "*/2 ****" #Every day at midnight UTC
 
 jobs:
  demo-commands:
   runs-on:ubuntu-latest
 
   steps:
-   -name:show current working directory
+   - name: show current working directory
     run:Pwd
 
-   -name:List files in the directory
+   - name: List files in the directory
     run:ls-la
 
-   -name:print today's date
+   - name: print today's date
     run:date
     
