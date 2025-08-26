@@ -1,1 +1,1 @@
-hello i am data scientist
+print("hello i am data scientist")
